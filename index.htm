@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>complex-form-design</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Complex Form Design</h1>
+    </header>
+    <section>
+      <form action="">
+        <div class="inline_form">
+          <div class="form_group">
+            <label for="fname">First Name</label>
+            <input type="text" name="" id="fname" placeholder="Arif">
+          </div>
+          <div class="form_group">
+            <label for="lname">Last Name</label>
+            <input type="text" name="" id="lname" placeholder="Rony">
+          </div>
+        </div>
+
+        <div class="inline_form">
+          <div class="form_group">
+            <label for="eail">Email</label>
+            <input type="email" name="" id="eail" placeholder="engr.a.h.rony@gmail.com">
+          </div>
+          <div class="form_group">
+            <label for="phone">Phone No
+            </label>
+            <input type="tel" name="" id="phone" placeholder="01720678372">
+          </div>
+        </div>
+
+        <div class="inline_form">
+          <div class="form_group">
+            <label for="country">Country</label>
+            <select name="country" id="country">
+              <option value="bd">Dhaka</option>
+              <option value="id">India</option>
+            </select>
+          </div>
+          <div class="form_group">
+            <label for="city">City</label>
+            <select name="city" id="city">
+              <option value="dhk">Dhaka</option>
+              <option value="mub">Mumbai</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form_group">
+          <label for="Gender">Gender</label>
+          <div class="radio_group">
+            <div class="radio_inline">
+              <input type="radio" name="Gender" id="male">
+            <label for="male">Male</label>
+            </div>
+            <div class="radio_inline">
+              <input type="radio" name="Gender" id="female">
+            <label for="female">Female</label>
+            </div>
+            <div class="radio_inline">
+              <input type="radio" name="Gender" id="other">
+            <label for="other">Other</label>
+            </div>
+          </div>
+        </div>
+        <div class="form_group">
+          <label for="bio">Short Bio</label>
+          <textarea name="" id="bio" cols="" rows="" placeholder="" class="bio"></textarea>
+        </div>
+
+        <div class="inline_form">
+          <div class="form_group">
+            <label for="Password">Password</label>
+            <input type="password" name="" id="Password" placeholder="Password">
+          </div>
+          <div class="form_group">
+            <label for="cPassword">Confirm Password</label>
+            <input type="password" name="" id="cPassword" placeholder="Password">
+          </div>
+        </div>
+        <div class="form_group">
+          <div class="check_inline">
+            <input type="checkbox" name="" id="agreement">
+          <label for="agreement">I accept terms and conditions</label>
+          </div>
+        </div>
+
+        <div class="form_group">
+          <input type="reset" value="RESET">
+          <input type="submit" value="SUBMIT">
+        </div>
+      </form>
+    </section>
+  </div>
+</body>
+</html>
